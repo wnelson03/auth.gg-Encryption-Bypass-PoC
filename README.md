@@ -25,6 +25,18 @@ Nobody has or will be able to develop a bypass like this for KeyAuth, or cAuth -
 
 Another open-source choice would be https://github.com/fingu/c_auth
 
+## How is this different than other bypasses?
+
+Typically, when people make bypasses. They only work on unprotected applications. They modify the direct program to skip over login. They're typically made by people with little knowledge looking for attention they don't deserve.
+
+This bypass is different because it only modifies a system function. You can't add protection to a system function, since that's not your code. The API of auth.gg is insecure for sending the decryption key along with the encrypted data.
+
+Unlike other bypasses, obfuscation and memory integrity checks will not solve the problem. Neither will re-writing the client code. The only solution must be done on the server-side API.
+
+If auth.gg had a secure API, then the typical bypass would not be their fault. it would be the fault of the programming customers who didn't obfuscate or add any protection code.
+
+Hopefully this makes a clear distinction. authentication services are not responsible for making sure your program can't be tampered with. they are however responsible with making sure the HTTP requests to their server can't be tampered with. auth.gg fails to do this by including the decryption key plain-text in the request.
+
 ## C# aka CSHARP
 
 > **Warning** Saying "Update available"?
