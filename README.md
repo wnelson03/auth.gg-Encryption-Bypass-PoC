@@ -2,7 +2,7 @@
 
 **Tutorial Video:** https://youtu.be/LtiPOj6DuAg?t=36
 
-**Credits:** https://discord.gg/keyauth and [@CabboShiba](https://github.com/CabboShiba?tab=repositories)
+**Credits:** https://keyauth.cc and [@CabboShiba](https://github.com/CabboShiba?tab=repositories)
 <br>
 <br>
 Due to poor implementation of AES encryption within auth.gg, all programs, **including obfuscated ones** are able to be exploited to login **without** a valid user account.
@@ -59,4 +59,4 @@ Now, as long as you kept HTTPDebugger open, you should be able to login with any
 
 ## C++
 
-Watch the video here https://outbuilt.ooo/
+Watch the video here https://files.catbox.moe/ju42i7.mp4
