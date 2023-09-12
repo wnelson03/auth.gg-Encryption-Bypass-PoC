@@ -19,7 +19,10 @@ You can host for free on https://www.000webhost.com/
 
 ## Alternatives to auth.gg
 
-You could use my service https://keyauth.cc. We take privacy very seriously, hashing emails in addition to the standard practice of hashing passwords. The code is all open-source as well.
+> [!NOTE]
+> In the spirit of full disclosure, I used to be the owner of KeyAuth. I have since sold it and have no involvement anymore. However the new owner is just as good if not better :)
+
+You could use https://keyauth.cc. They take privacy very seriously, hashing emails in addition to the standard practice of hashing passwords. The code is all open-source as well.
 
 Nobody has or will be able to develop a bypass like this for KeyAuth, or cAuth - the one I mention below. The encryption key is never sent in the request, so you can't use HTTPDebugger to bypass. As long as the program developer obfuscates, string encrypts, adds integrity checks; the chance of issues are very slim.
 
